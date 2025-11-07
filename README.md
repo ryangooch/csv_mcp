@@ -51,7 +51,7 @@ uv sync
 The server uses stdio transport by default:
 
 ```bash
-python server.py
+uv run python server.py
 ```
 
 ### Using with Claude Desktop
@@ -62,7 +62,7 @@ Add to your Claude Desktop MCP configuration:
 {
   "mcpServers": {
     "csv": {
-      "command": "python",
+      "command": "/path/to/.venv/bin/python",
       "args": ["/absolute/path/to/csv_mcp/server.py"]
     }
   }
