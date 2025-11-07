@@ -1,0 +1,51 @@
+<evaluation>
+  <qa_pair>
+    <question>Inspect the wine.csv file structure. Which wine class (cultivar) has the most samples in the dataset? Answer with just the class number (1, 2, or 3).</question>
+    <answer>2</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Find all unique wine class values in wine.csv. How many distinct wine classes are represented in the dataset? Answer with just the number.</question>
+    <answer>3</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Get summary statistics for the 'alcohol' column in wine.csv. What is the mean alcohol content across all wines? Round your answer to 2 decimal places.</question>
+    <answer>13.00</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Analyze the 'proline' column in wine.csv. Which wine class (1, 2, or 3) contains the wine sample with the highest proline value? Answer with just the class number.</question>
+    <answer>1</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Get detailed column information for 'magnesium' in wine.csv. What is the maximum magnesium value found in any wine sample? Provide just the numeric value without units.</question>
+    <answer>162</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Calculate statistics for wines in class 2 only. First filter wine.csv to create a file with only class 2 wines, then compute the mean alcohol content for this subset. Round to 2 decimal places.</question>
+    <answer>12.28</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Examine wines from class 3 in wine.csv. How many class 3 wine samples have an alcohol content less than 13.0? Answer with just the count.</question>
+    <answer>21</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Inspect the structure of wine.csv and identify all numeric columns. How many total columns (including the class identifier) are in this dataset? Answer with just the number.</question>
+    <answer>14</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Get unique values for the 'class' column in wine.csv. What is the total count of wine samples across all classes combined in the entire dataset? Answer with just the number.</question>
+    <answer>178</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Analyze the 'hue' column statistics in wine.csv. What is the minimum hue value recorded across all wine samples? Provide the exact value to 2 decimal places.</question>
+    <answer>0.48</answer>
+  </qa_pair>
+</evaluation>

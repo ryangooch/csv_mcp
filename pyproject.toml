@@ -1,0 +1,20 @@
+[project]
+name = "csv-mcp"
+version = "0.1.0"
+description = "MCP server for CSV file inspection and transformation using simple bash utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
